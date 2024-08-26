@@ -1,8 +1,24 @@
-.wrapper-card {
-  h5 {
-    color: blue;
-    font-size: 40px;
-    background-color: red;
-    border: 1px solid black;
-  }
-}
+@import './helpers/variables';
+@import './helpers/mixins';
+@import './helpers/extend';
+
+@import './layouts/navbar';
+@import './partial/home/our-mission'
+
+
+
+// .box{
+//    @include box();
+// }
+
+// .second{
+//     @include box(blue,20px);
+// }
+
+// .three{
+//     @include box(red,50px);
+// }
+
+// .fourth{
+//     @extend %card;
+// }
