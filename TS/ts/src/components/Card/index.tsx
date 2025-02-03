@@ -23,7 +23,7 @@ const age: Pick<Person, "age"> = { age: 20 };
 
 const username: Required<TBase> = { name: "John", surname: "Doe" };
 
-const cardData: Partial<ICardProps> = { price: 4, description: "description" };
+const cardData = { price: 4, description: "description" };
 
 export const Card: FC<IProps> = ({ title, description, price }) => {
   return (
